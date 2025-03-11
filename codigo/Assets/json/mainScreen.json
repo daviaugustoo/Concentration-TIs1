@@ -1,0 +1,14 @@
+{
+    "modal": {
+        "id": "modal",
+        "class": "modal",
+        "content": {
+            "title": "Título do Modal",
+            "text": "Texto do Modal"
+        },
+        "button": {
+            "text": "Fechar"
+        },
+        "show_on_load": true
+    }
+}

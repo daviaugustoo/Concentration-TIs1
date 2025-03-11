@@ -1,0 +1,257 @@
+@media screen and (max-width:735px) {
+
+    /*Configuração Tela inicial*/
+    main {
+        height: 84vh;
+        overflow: auto;
+    }
+
+    .botoesContainer {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+
+        margin-top: 30px;
+    }
+
+    .botoesInicial {
+        height: 7vh;
+
+        display: flex;
+        align-items: center;
+
+        padding: 10px 20px;
+        font-size: 16px;
+        border-radius: 10px;
+        background-color: #b1d4ff;
+        color: black;
+        text-align: center;
+
+        width: 100%;
+        /* opcional - define a largura máxima dos botões */
+        max-width: 90%;
+    }
+
+    .botoesContainer a {
+        width: 85%;
+        margin-bottom: 15px;
+        text-decoration: none;
+    }
+
+    .botoesInicial h2 {
+        width: 100%;
+
+        display: flex;
+        justify-content: center;
+    }
+
+    #botaoModoescuro img {
+        margin-right: 23px;
+    }
+
+    /*Barra Navegação*/
+    .barraNavegacao {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 80px;
+
+        padding: 10px;
+        background-color: #FA8072;
+        border-radius: 20px 20px 0px 0px;
+    }
+
+    #iconeConcentration {
+        text-decoration: none;
+        color: white;
+    }
+
+    .iconeConcentration h3 {
+        padding: 10px;
+        border-radius: 10px;
+        border: 1px solid #FB665B;
+        box-shadow: 0 8px 6px -6px rgba(0, 0, 2, 0.5);
+        background-color: #FB665B;
+    }
+
+    #iconePrincipal {
+        position: absolute;
+        right: 25px;
+        bottom: 25px;
+    }
+
+    .iconeMenu,
+    .iconePomodoro,
+    .iconeRelaxamento,
+    .iconeMensagens {
+        display: none;
+    }
+}
+
+@media screen and (min-width:736px) and (max-width:1023px) {
+    /*Barra Navegação*/
+    #iconeConcentration,
+    #iconePrincipal {
+        display: none;
+    }
+
+    .barraNavegacao {
+        width: 15%;
+        background-color: #FA8072;
+        display: flex;
+        flex-direction: column;
+
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+    }
+
+    .botoesNavegacao {
+        margin-top: 65%;
+    }
+
+    .barraNavegacao a {
+        display: block;
+        margin: 30px;
+        margin-bottom: 30px;
+    }
+
+    /*Configuração da tela*/
+    .botoesContainer {
+        width: 80%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(3,1fr);
+        gap: 10px;
+    
+        flex-direction: column;
+
+        margin-left: 19%;
+        margin-top: 14%;
+    }
+
+    .botoesInicial {
+        height: 12vh;
+
+        display: flex;
+        align-items: center;
+
+        padding: 10px 20px;
+        font-size: 16px;
+        border-radius: 10px;
+        background-color: #b1d4ff;
+        color: black;
+        text-align: center;
+
+        width: 100%;
+        /* opcional - define a largura máxima dos botões */
+        max-width: 90%;
+    }
+
+    .botoesContainer a {
+        width: 90%;
+        margin-bottom: 15px;
+        text-decoration: none;
+    }
+
+    .botoesInicial h2 {
+        width: 90%;
+
+        display: flex;
+        justify-content: center;
+        margin: 10px
+    }
+
+    #botaoModoescuro img {
+        margin-right: 15px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+
+    /*Barra Navegação*/
+    #iconeConcentration,
+    #iconePrincipal {
+        display: none;
+    }
+
+    .barraNavegacao {
+        background-color: #FA8072;
+        display: flex;
+        flex-direction: column;
+
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+    }
+
+    .botoesNavegacao {
+        margin-top: 10vh;
+    }
+
+    .barraNavegacao a {
+        display: block;
+        margin: 30px;
+        margin-bottom: 30px;
+    }
+
+    /*Configurações da tela*/
+    .botoesContainer {
+        width: 80%;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(3,1fr);
+        gap: 10px;
+
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+
+        margin-left: 21vh;
+        margin-top: 14vh;
+    }
+
+    .botoesInicial {
+        height: 12vh;
+
+        display: flex;
+        align-items: center;
+
+        padding: 10px 20px;
+        font-size: 16px;
+        border-radius: 10px;
+        background-color: #b1d4ff;
+        color: black;
+        text-align: center;
+
+        width: 100%;
+        /* opcional - define a largura máxima dos botões */
+        max-width: 90%;
+    }
+
+    .botoesContainer a {
+        width: 90%;
+        margin-bottom: 15px;
+        text-decoration: none;
+    }
+
+    .botoesInicial h2 {
+        width: 90%;
+
+        display: flex;
+        justify-content: center;
+        margin: 10px
+    }
+
+    #botaoModoescuro img {
+        margin-right: 15px;
+    }
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concentration - ajuda e feedback</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <nav class="navegacao">
+        <a href="./inicio.html" class="botao__concentracao">Concentration</a>
+        <a href="./Assets/html/mainMenu.html"><img src="img/menu-hamburger-white.svg" width="50px" height="50px" alt="Botão do menu" class="botao__menu"></a>
+        <li class="lista-nav">
+            <!-- <li class="lista-nav__item">
+                <a href="#" class="tags logo">
+                    <div>
+                        <h1>Concentration</h1>
+                    </div>
+                </a>
+            </li> -->
+            <li class="lista-nav__item">
+                <a href="./Assets/html/mainMenu.html" class="barra__link">
+                    <img src="./recursos/casa.png" width="40px" height="40px" alt="Menu" class="botao__menu__pc"><br>
+                    <p class="link">Menu</p>
+                </a>
+            </li>
+            <li class="lista-nav__item">
+                <a href="./pomodoro.html" class="barra__link">
+                    <img src="./recursos/wall-clock.png" width="40px" height="40px" alt="Pomodoro" class="botao__menu__pc"><br>
+                    <p class="link">Pomodoro</p>
+                </a>
+            </li>
+            <li class="lista-nav__item">
+                <a href="./Assets/html/meditationScreen.html" class="barra__link">
+                    <img src="./recursos/yoga.png" width="40px" height="40px" alt="Relaxamento" class="botao__menu__pc"><br>
+                    <p class="link">Relaxamento</p>
+                </a>
+            </li>
+            <li class="lista-nav__item">
+                <a href="#" class="barra__link">
+                    <img src="./recursos/feedback.png" width="40px" height="40px" alt="Feedback e ajuda" class="botao__menu__pc"><br>
+                    <p class="link">Feedback</p>
+                </a>
+            </li>
+            <li class="lista-nav__item">
+                <a href="#" class="barra__link">
+                    <img src="./recursos/contribution.png" width="40px" height="40px" alt="Manual" class="botao__menu__pc"><br>
+                    <p class="link">Manual</p>
+                </a>
+            </li>
+            <li class="lista-nav__item" id="lista-nav__label">
+                <input type="checkbox" id="botao__modo">
+                <label for="botao__modo" class="botao__modo-label">
+                    <img src="img/lua.png" alt="Modo escuro desativado" class="icone__modo">
+                </label>
+            </li>
+        </li>
+    </nav>
+    <main class="conteudo__principal">
+        <h1 class="instrucao">Deixe seu feedback ou sua pergunta:</h1>
+        <textarea rows="4" cols="50" class="caixa" id="caixa" placeholder="Feedback/pergunta"></textarea>
+        <input type="submit" class="enviar" id="enviar" value="Enviar">
+        <div id="tela" class="tela"></div>
+    </main>
+    <script src="script/main.js"></script>
+</body>
+</html>

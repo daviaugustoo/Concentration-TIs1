@@ -1,0 +1,33 @@
+{
+    "slides": [
+        {
+            "container": ".slide-container",
+            "active": true,
+            "content": {
+                "title": "Título 1",
+                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit...",
+                "link": "http://127.0.0.1:5500/TelaMeditacaoGuiada/TelaOrientacaoMeditacao.html"
+            }
+        },
+        {
+            "container": ".slide-container",
+            "active": false,
+            "content": {
+                "title": "Título 2",
+                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit...",
+                "link": "http://127.0.0.1:5500/TelaMeditacaoGuiada/TelaOrientacaoMeditacao.html"
+            }
+        },
+        {
+            "container": ".slide-container",
+            "active": false,
+            "content": {
+                "title": "Título 3",
+                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit...",
+                "link": "http://127.0.0.1:5500/TelaMeditacaoGuiada/TelaOrientacaoMeditacao.html"
+            }
+        }
+    ],
+    "prevButton": "prev",
+    "nextButton": "next"
+}

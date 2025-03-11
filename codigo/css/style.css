@@ -1,0 +1,30 @@
+@import url('index.css');
+@import url('pomodoro.css');
+@import url('side-bar.css');
+
+:root {
+    --cor_fundo: #FFFFFF;
+    --cor_texto: #000000;
+    --cor_botao: #87BEFF;
+    --cor_botao_ativo: #74b3ff;
+    --cor_botao_hover: #6baeff;
+    --cor_caixa_conteudo: #87bdff4d;
+    --cor_barra_navegacao: #FA8072;
+    --cor_botao_concentracao: rgba(255, 89, 70, 0.753);
+    --amarelo: yellow;
+}
+
+.modo-escuro:root {
+    --cor_fundo: #898989;
+    --cor_texto: #FFFFFF;
+    --cor_botao: #9492A5;
+    --cor_botao_ativo: #58575F;
+    --cor_botao_hover: #3F3E42;
+    --cor_caixa_conteudo: #3F3E42;
+    --cor_barra_navegacao: #362A29;
+    --cor_botao_concentracao: #1C1C1C;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Assets/css/style.css">
+    <link rel="stylesheet" href="./Assets/css/Modal.css">
+    <title>Tela inicial - Concentration</title>
+</head>
+<body>
+    <main class="telaInicial">
+        <!-- Botões para outras funcionalidades do aplicativo -->
+        <div class="botoesContainer">
+            <h3>Concentração</h3>
+            <a href="./pomodoro.html">
+                <div class="botoesInicial">
+                    <img src="./Assets/images/tomate.png" alt="Pomodoro">
+                    <h2>Pomodoro</h2>
+                </div>
+            </a>
+
+            <h3>Relaxamento</h3>
+            <a href="./Assets/html/meditationScreen.html">
+                <div class="botoesInicial">
+                    <img src="./Assets/images/meditacao.png" alt="Meditação">
+                    <h2>Meditação Guiada</h2>
+                </div>
+            </a>
+
+            <h3>Mensagens Motivacionais ❤️</h3>
+            <a href="./mensagens.html">
+                <div class="botoesInicial">
+                    <img src="./Assets/images/carta-de-amor.png" alt="Carta com flores">
+                    <h2>Mensagens Motivacionais</h2>
+                </div>
+            </a>
+
+            <h3>Manual</h3>
+            <a href="">
+                <div class="botoesInicial">
+                    <img src="./Assets/images/contribution.png" alt="Imagem Manual" class="imagem__manual">
+                    <h2>Manual de usuário</h2>
+                </div>
+            </a>
+        </div>
+    </main>
+
+    <!-- Barra de Navegação -->
+    <nav class="barraNavegacao">
+        <div class="botoesNavegacao">
+            <a id="iconeConcentration" href="#">
+                <div class="iconeConcentration">
+                    <h3>Concentration</h3>
+                </div>
+            </a>
+
+            <a id="iconePrincipal" href="./Assets/html/mainMenu.html">
+                <img src="./img/menu-hamburger-white.svg" alt="Icone Principal" class="hamburguer">
+            </a>
+
+            <!-- Barra Navegação - Desktop -->
+            <a class="iconeMensagens" href="./Assets/html/mainMenu.html">
+                <img src="./Assets/recursos/casa.png" alt="Icone Menu" width="50px" height="50px">
+                <p class="link">Menu</p>
+            </a>
+            <a class="iconeMensagens" href="./feedback.html">
+                <img src="./Assets/recursos/feedback.png" alt="Icone Mensagem" width="50px" height="50px" class="icone__feedback">
+                <p class="link">Feedback</p>
+            </a>
+            <li class="lista-nav__item" id="lista-nav__label">
+                <input type="checkbox" id="botao__modo">
+                <label for="botao__modo" class="botao__modo-label">
+                    <img src="img/lua.png" alt="Modo escuro desativado" class="icone__modo">
+                </label>
+            </li>
+        </div>
+    </nav>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Bem vindo ao Concentration!</h2>
+            <p>Espero que o tempo em que passarmos juntos seja proveitoso, posso te ajudar a se organizar com o tempo,
+                meditar e te motivar durante o dia 😍. Se você tiver alguma dúvida ou sugestão, mande sua mensagem em
+                Feedback e Ajuda! Espero que você goste do aplicativo e que te ajude muito!!! 😁</p>
+        </div>
+    </div>
+    <script src="./Assets/javascript/mainScreen.js"></script>
+    <script src="./Assets/javascript/modo.js"></script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Pomodoro cronometro</title>
+</head>
+<body>
+    <div class="all">
+        <nav class="menu">
+            <a href="../inicio.html" class="tags logo">
+              <div>
+                <h1>Concentration</h1>
+              </div>
+            </a>
+            <a href="../Assets/html/mainMenu.html" class="tags menu-inicial">
+              <div>
+                <img src="../recursos/casa.png" alt="" class="casa" />
+                <img
+                  src="../recursos/menu-hamburger-white.svg"
+                  alt=""
+                  class="menu-hamburguer"
+                />
+                <p class="text-menu">Menu</p>
+              </div>
+            </a>
+            <a href="../pomodoro.html" class="tags tag3">
+              <div>
+                <img src="../recursos/wall-clock.png" alt="pomodoro-icon">
+                <p>Pomodoro</p>
+              </div>
+            </a>
+            <a href="../Assets/html/meditationScreen.html" class="tags tag4">
+              <div>
+                <img src="../recursos/yoga.png" alt="relaxamento-icon">
+                <p>Relaxamento</p>
+              </div>
+            </a>
+            <a href="../feedback.html" class="tags tag5">
+              <div>
+                <img src="../recursos/feedback.png" alt="feedback-icon">
+                <p>Feedback</p>
+              </div>
+            </a>
+            <a href="#" class="tags tag6">
+              <div>
+                <img src="../recursos/contribution.png" alt="manual-icon">
+                <p>Manual</p>
+              </div>
+            </a>
+            <input type="checkbox" id="botao__modo">
+            <label for="botao__modo" class="botao__modo-label">
+                <img src="../img/lua.png" alt="Modo escuro desativado" class="icone__modo">
+            </label>
+        </nav>
+        <main>
+            <div class="content">
+                <div class="cronometro-titulo">
+                    <h1 id="title">Cronômetro Pomodoro</h1>
+                </div>
+                <div class="cronometro">
+                    <h1 id="contador">00:00</h1>
+                </div>
+                <div class="botao">
+                  <button id="start-btn" onclick="start()">Iniciar</button>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="../js/script.js"></script>
+</body>
+</html>

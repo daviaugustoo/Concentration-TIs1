@@ -1,0 +1,377 @@
+@media screen and (max-width: 767px) {
+
+    /*Configuração Tela Inicial*/
+    body {
+        height: 100vh;
+        width: 100vw;
+        background-color: var(--cor_fundo);
+    }
+
+    .botoesContainer h3 {
+        width: 90%;
+        margin: 0;
+    }
+
+    .botoesContainer {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+
+        margin-top: 30px;
+    }
+
+    .botoesInicial {
+        height: 12vh;
+
+        display: flex;
+        align-items: center;
+
+        padding: 10px 20px;
+        font-size: 16px;
+        border-radius: 10px;
+        background-color: var(--cor_caixa_conteudo);
+        color: var(--cor_texto);
+        text-align: center;
+
+        width: 100%;
+        /* opcional - define a largura máxima dos botões */
+        max-width: 90%;
+    }
+
+    .botoesContainer a {
+        width: 90%;
+        margin-bottom: 15px;
+        text-decoration: none;
+    }
+
+    .botoesInicial h2 {
+        width: 80%;
+
+        display: flex;
+        justify-content: center;
+    }
+
+    /*Barra Navegação*/
+    .barraNavegacao {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 80px;
+
+        padding: 10px;
+        background-color: var(--cor_barra_navegacao);
+        border-radius: 20px 20px 0px 0px;
+    }
+
+    .botoesNavegacao {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+
+    #iconeConcentration {
+        text-decoration: none;
+        color: var(--cor_fundo);
+    }
+
+    .iconeConcentration h3 {
+        padding: 10px;
+        border-radius: 10px;
+        border: 1px solid var(--cor_botao_concentracao);
+        box-shadow: 0 8px 6px -6px rgba(0, 0, 2, 0.5);
+        background-color: var(--cor_botao_concentracao);
+    }
+
+    #iconePrincipal {
+        position: static; /* Remove a posição absoluta */
+        margin-top: 10px;
+        margin-left: 20px;
+        right: 25px;
+        bottom: 25px;
+    }
+
+    .iconeMenu,
+    .iconePomodoro,
+    .iconeRelaxamento,
+    .iconeMensagens {
+        display: none;
+    }
+    
+    .modal-content {
+        margin-bottom: 150px;
+    }
+
+    .lista-nav__item {
+        flex: 1;
+        list-style-type: none;
+    }
+
+    .icone__modo {
+        height: 30px;
+        width: 30px;
+        padding-left: 25px;
+    }
+
+    #botao__modo {
+        display: none;
+    }
+
+    .imagem__manual {
+        width: 60px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+
+    /*Barra Navegação*/
+    #iconeConcentration,
+    #iconePrincipal {
+        display: none;
+    }
+
+    body {
+        height: 100vh;
+        width: 100vw;
+        background-color: var(--cor_fundo);
+    }
+
+    .barraNavegacao {
+        width: 16%;
+        background-color: var(--cor_barra_navegacao);
+        display: flex;
+        flex-direction: column;
+
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+    }
+
+    .botoesNavegacao {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .barraNavegacao a {
+        display: block;
+        margin: 30px;
+        margin-bottom: 30px;
+    }
+
+    /*Configuração Tela Inicial*/
+    .botoesContainer h3 {
+        width: 90%;
+        margin: 0;
+    }
+
+    .botoesContainer {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+
+        margin-left: 18%;
+        margin-top: 10%;
+    }
+
+    .botoesInicial {
+        height: 12vh;
+
+        display: flex;
+        align-items: center;
+
+        padding: 10px 20px;
+        font-size: 16px;
+        border-radius: 10px;
+        background-color: var(--cor_caixa_conteudo);
+        color: var(--cor_texto);
+        text-align: center;
+
+        width: 100%;
+        /* opcional - define a largura máxima dos botões */
+        max-width: 90%;
+    }
+
+    .botoesContainer a {
+        width: 90%;
+        margin-bottom: 15px;
+        text-decoration: none;
+    }
+
+    .botoesInicial h2 {
+        width: 80%;
+
+        display: flex;
+        margin-left: 20px;
+    }
+
+    .iconeMensagens {
+        text-decoration: none;
+    }
+
+    .link {
+        text-decoration: none;
+        color: var(--cor_fundo);
+    }
+
+    .modal-content {
+        padding-left: 150px;
+    }
+
+    .lista-nav__item {
+        flex: 1;
+        list-style-type: none;
+    }
+
+    .icone__modo {
+        height: 30px;
+        width: 30px;
+        padding-left: 25px;
+    }
+
+    #botao__modo {
+        display: none;
+    }
+
+    .imagem__manual {
+        width: 60px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+
+    /*Barra Navegação*/
+    #iconeConcentration,
+    #iconePrincipal {
+        display: none;
+    }
+
+    body {
+        height: 100vh;
+        width: 100vw;
+        background-color: var(--cor_fundo);
+        overflow: hidden;
+    }
+
+    .barraNavegacao {
+        background-color: var(--cor_barra_navegacao);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        width: 10vw;
+        align-items: center;
+    }
+
+    .botoesNavegacao {
+        margin-top: 10vh;
+        align-items: center;
+    }
+
+    .barraNavegacao a {
+        /* display: block; */
+        margin: 30px;
+        margin-bottom: 30px;
+        margin: 10px;
+    }
+
+    /*Configuração Tela Inicial*/
+    .botoesContainer h3 {
+        width: 90%;
+        margin: 0;
+    }
+
+    .botoesContainer {
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+
+        margin-left: 25vh;
+        margin-top: 10vh;
+    }
+
+    .botoesInicial {
+        height: 12vh;
+
+        display: flex;
+        align-items: center;
+
+        padding: 10px 20px;
+        font-size: 16px;
+        border-radius: 10px;
+        background-color: var(--cor_caixa_conteudo);
+        color: var(--cor_texto);
+        text-align: center;
+
+        width: 100%;
+        /* opcional - define a largura máxima dos botões */
+        max-width: 90%;
+    }
+
+    .botoesContainer a {
+        width: 90%;
+        margin-bottom: 15px;
+        text-decoration: none;
+    }
+
+    .botoesInicial h2 {
+        width: 80%;
+
+        display: flex;
+        margin-left: 20px;
+    }
+
+    .iconeMensagens {
+        text-decoration: none;
+    }
+
+    .link {
+        text-decoration: none;
+        color: var(--cor_fundo);
+        padding-bottom: 50px;
+    }
+
+    .modal-content {
+        padding-left: 150px;
+    }
+
+    .lista-nav__item {
+        flex: 1;
+        list-style-type: none;
+    }
+
+    .icone__modo {
+        height: 30px;
+        width: 30px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .icone__modo:hover {
+        cursor: pointer;
+    }
+
+    #botao__modo {
+        display: none;
+    }
+
+    .imagem__manual {
+        width: 60px;
+    }
+}

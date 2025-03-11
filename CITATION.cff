@@ -1,0 +1,26 @@
+cff-version: 1.0.1
+message: Please cite this software using these metadata.
+title: Concentration
+authors:
+  - family-names: Morais Sao Jose
+    given-names: Cauan Augusto
+  - family-names: Piccinini Bolognani
+    given-names: Conrado
+  - family-names: Dias Soares
+    given-names: Davi Augusto
+  - family-names: Silva Pereira
+    given-names: Gabriel Henrique
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Soares Viera de Vasconcelos
+    given-names: Amalia
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Vieira Carneiro
+    given-names: Rommel
+keywords:
+  - saúde mental
+repository-code: 
+license: CC-BY-4.0
+version: 1.0.0
+date-released: 2022-07-14
